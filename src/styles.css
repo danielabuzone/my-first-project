@@ -1,7 +1,9 @@
-.container {
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+body {
+  display: block;
+  background-position: center;
+  padding: 50px;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
-
 h1 {
   text-align: center;
   color: #455a64;

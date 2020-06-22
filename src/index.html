@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Homework Week 6</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6</title>
+<head>
+    <title>Homework Week 2</title>
     <meta charset="UTF-8" />
     <link href="src/styles.css" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet" />
+
 </head>
-<link rel="stylesheet" 
- href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
-    crossorigin="anonymous"
-    href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" 
-    rel="stylesheet" 
-    />
+
 <body>
     <div class="container">
 
@@ -20,11 +22,11 @@
             <div class="form-group mx-sm-3 mb-2">
                 <label for="city-name" class="sr-only">Search City</label>
                 <input type="text" class="form-control" id="search-input" placeholder="Search City" />
-                <input id="search-now" type="submit" valeu="search" />
+                <input id="search-now" type="submit" value="search" />
             </div>
         </form>
         <div class="media">
-<img src="src/img/sun.png" width="300px" class="sun" alt="sun"/>
+            <img src="src/img/sun.png" width="300" class="mr-3" alt="sunny" />
             <div class="media-body">
                 <h1 id="city">Abbotsford</h1>
                 <p class="cityName">Britsh Columbia - Canada</p>
@@ -37,16 +39,19 @@
                         </ul>
                     </div>
                 </h4>
+
+
+
                 <div class="float-letf"><span class="temperature" id="temperatureNow">21</span> <span class=celsius>
-                        °C</span>
-                    </div>
+                        °C</span></div>
+
                 </p>
             </div>
         </div>
         <div class="row row-cols-1 row-cols-md-4">
             <div class="col mb-4">
                 <div class="card h-1">
-                    <img src="src/img/rainny.png" class="card-img-top" alt="rain" />
+                    <img src="src/img/rainny.png" class="card-img-top" alt="sunny" />
                     <div class="card-body">
                         <h5 class="card-title">Friday</h5>
                         <p class="card-text">21°C</p>
@@ -55,7 +60,7 @@
             </div>
             <div class="col mb-4">
                 <div class="card h-1">
-                    <img src="src/img/partclau.png" class="card-img-top" alt="partclau" />
+                    <img src="src/img/partclau.png" class="card-img-top" alt="sunny" />
                     <div class="card-body">
                         <h5 class="card-title">Saturday</h5>
                         <p class="card-text">18°C</p>
@@ -64,7 +69,7 @@
             </div>
             <div class="col mb-4">
                 <div class="card h-1">
-                    <img src="src/img/storm.jpeg" width="200" class="card-img-top" alt="storm" />
+                    <img src="src/img/storm.jpeg" width="200" class="card-img-top" alt="sunny" />
                     <div class="card-body">
                         <h5 class="card-title">Sunday</h5>
                         <p class="card-text"></p>
@@ -74,7 +79,7 @@
             </div>
             <div class="col mb-4">
                 <div class="card h-1">
-                    <img src="src/img/storm.jpeg" class="card-img-top" alt="storm" />
+                    <img src="src/img/storm.jpeg" class="card-img-top" alt="sunny" />
                     <div class="card-body">
                         <h5 class="card-title">Monday</h5>
                         <p class="card-text"></p>
@@ -83,7 +88,9 @@
                 </div>
             </div>
         </div>
+
         <script src="src/index.js"></script>
     </div>
 </body>
+
 </html>
