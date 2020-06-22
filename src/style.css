@@ -33,6 +33,8 @@ h5 {
 }
 img {
   color-interpolation-filters: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
 ul {
