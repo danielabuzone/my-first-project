@@ -16,7 +16,7 @@ let days = [
   "Saturday",
 ];
 let day = days[now.getDay()];
-//
+// time
 h6.innerHTML = `${day} ${date}, ${hours}:${minutes}`;
 
 //Show Temp
