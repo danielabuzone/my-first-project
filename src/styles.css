@@ -1,0 +1,10 @@
+.container {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+h1 {
+  text-align: center;
+  color: #455a64;
+  font-size: 48px;
+  font-weight: bold;
+}
