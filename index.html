@@ -1,15 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html>
+
+<head>
+    <title>Homework Week 2</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My First Project with Git</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>
-      Hello GitHub
-    </h1>
-    <script src="script.js"></script>
-  </body>
+    <link href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"
+    href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet" />
+
+<body>
+    <div class="container">
+
+        <form id="search-form">
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="city-name" class="sr-only">Search City</label>
+                <input type="text" class="form-control" id="search-input" placeholder="Search City" />
+                <input id="search-now" type="submit" valeu="search" />
+            </div>
+        </form>
+        <div class="media">
+            <img src="src/img/sun.png" width="300" class="mr-3" alt="sunny" />
+            <div class="media-body">
+                <h1 id="city">Abbotsford</h1>
+                <p class="cityName">Britsh Columbia - Canada</p>
+                <h6>day, date, hours:minutes</h6>
+                <h4>
+                    <div>
+                        <ul>
+                            <li>Humidity: <span id="humidity"></span>%</li>
+                            <li>Wind: <span id="wind"></span> km/h</li>
+                        </ul>
+                    </div>
+                </h4>
+
+
+
+                <div class="float-letf"><span class="temperature" id="temperatureNow">21</span> <span class=celsius>
+                        °C</span></div>
+
+                </p>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4">
+            <div class="col mb-4">
+                <div class="card h-1">
+                    <img src="src/img/rainny.png" class="card-img-top" alt="sunny" />
+                    <div class="card-body">
+                        <h5 class="card-title">Friday</h5>
+                        <p class="card-text">21°C</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-1">
+                    <img src="src/img/partclau.png" class="card-img-top" alt="sunny" />
+                    <div class="card-body">
+                        <h5 class="card-title">Saturday</h5>
+                        <p class="card-text">18°C</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-1">
+                    <img src="src/img/storm.jpeg" width="200" class="card-img-top" alt="sunny" />
+                    <div class="card-body">
+                        <h5 class="card-title">Sunday</h5>
+                        <p class="card-text"></p>
+                        <p class="card-text">22°C</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-1">
+                    <img src="src/img/storm.jpeg" class="card-img-top" alt="sunny" />
+                    <div class="card-body">
+                        <h5 class="card-title">Monday</h5>
+                        <p class="card-text"></p>
+                        <p class="card-text">25°C</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="src/index.js"></script>
+    </div>
+</body>
+
 </html>
