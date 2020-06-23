@@ -8,13 +8,18 @@ body {
   max-width: 800px;
   display: block;
   margin: 25px auto;
-  padding: 10px auto;
+  padding: 10px;
   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   font-family: "Noto Sans JP", sans-serif;
   border-radius: 15px;
   border: solid rgba(0, 0, 0, 0.3);
   box-shadow: rgba(0, 24, 49, 0.51) 0px 15px 20px 8px;
 }
+.search-now {
+  border-radius: 20px;
+  margin: 10px;
+}
+
 h1 {
   text-align: center;
   color: #455a64;
@@ -36,7 +41,7 @@ h6 {
 }
 h5 {
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   color: #455a64;
 }
 
@@ -75,18 +80,32 @@ li {
 }
 
 .temperature {
-  font-size: 40px;
   text-align: center;
-  margin-left: 175px;
-  color: #0c5374;
+  color: #455a64;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .search-input {
   padding: 50px;
-  margin: display block;
+  margin: 0 auto;
+  width: 500px;
+  display: block;
 }
 .celsius {
   font-size: 30px;
   font-weight: 50px;
-  color: #0c5374;
+  color: #455a64;
+  text-align: center;
+}
+
+.h-1 {
+  border-radius: 18px;
+  background-image: linear-gradient(120deg, #d0dcf0 0%, #82c8e9 100%);
+  height: 300px;
+}
+
+img {
+  display: inline-block;
+  margin: 0 auto;
 }
