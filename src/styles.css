@@ -23,7 +23,7 @@ body {
 h1 {
   text-align: center;
   color: #455a64;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: bold;
 }
 
@@ -108,4 +108,8 @@ li {
 img {
   display: inline-block;
   margin: 0 auto;
+}
+
+.float-letf {
+  text-align: center;
 }
